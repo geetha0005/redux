@@ -1,2 +1,9 @@
-/* eslint-disable no-console */
-console.log('hi');
+import { createRoot } from "react-dom/client";
+import React from "react";
+import { render } from "react-dom";
+
+function Hi(){
+    return<p>Hi.</p>
+}
+render(<Hi/>,document.getElementById("app"));
+
